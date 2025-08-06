@@ -1,7 +1,7 @@
-# Remittance Forecasting by Country (XGBoost Model)
+# Foreign Remittance Analysis
 
 ## Overview
-This project builds a machine learning pipeline to forecast monthly remittances for individual countries using historical time-series data.  
+This project builds a machine learning pipeline to forecast monthly remittances for individual countries using historical time-series data collected from the SBP website.
 The model is trained using **XGBoost Regressor** and incorporates lag features, rolling averages, and temporal patterns to improve prediction accuracy.
 
 ---
