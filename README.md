@@ -61,26 +61,16 @@ The model is trained using **XGBoost Regressor** and incorporates lag features, 
 
 ---
 
-## Example Results
+## Next Steps
+Experiment with hyperparameter tuning.
+Experiment with LSTM or Temporal Fusion Transformers for improved sequence modeling.
+Deploy as a REST API for real-time predictions.
+
+## Results
 ```text
          Country  Forecast_July2025
 0      Abu Dhabi         188.30
 1        Bahrain         143.87
 2        Belgium         116.97
 ...
-
-
-Results
-         Country  Forecast_July2025
-0      Abu Dhabi         188.30
-1        Bahrain         143.87
-2        Belgium         116.97
-...
 Test RMSE: ~42.61 (last 6 months)
-
-Experiment with hyperparameter tuning.
-Deployment as an API.
-
-Experiment with LSTM or Temporal Fusion Transformers for improved sequence modeling.
-
-Deploy as a REST API for real-time predictions.
